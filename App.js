@@ -204,7 +204,7 @@ export default function App() {
               onPress={() => {
                 alert(item.nombre)
               }}>
-              <Text style={{ color: "white" }}>{item.nombre}, {item.apellidos}</Text>
+              <Text style={{ color: "white", width: 200, textAlign: "center" }}>{item.nombre}, {item.apellidos}</Text>
             </TouchableOpacity>
 
           )}
